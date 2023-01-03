@@ -34,7 +34,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "fsd-helper/rule-name": 2
+        "fsd-helper/path-ckecker": ["error", { "alias": "@" }],
+        "fsd-helper/public-api-imports": ["error", { "alias": "@" }]
     }
 }
 ```
