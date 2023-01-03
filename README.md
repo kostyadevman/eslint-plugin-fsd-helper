@@ -1,6 +1,6 @@
-# eslint-plugin-fsd-helper-plugin
+# eslint-plugin-fsd-helper
 
-checks imports for FSD architecture
+checks imports for [FSD](https://feature-sliced.design/) architecture
 
 ## Installation
 

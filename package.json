@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-fsd-helper",
-  "version": "0.0.3",
-  "description": "checks imports for fsd architecture",
+  "version": "0.0.4",
+  "description": "checks imports for FSD architecture",
   "keywords": [
     "eslint",
     "eslintplugin",
