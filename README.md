@@ -35,7 +35,15 @@ Then configure the rules you want to use under the rules section.
 {
     "rules": {
         "fsd-helper/path-ckecker": ["error", { "alias": "@" }],
-        "fsd-helper/public-api-imports": ["error", { "alias": "@" }]
+        "fsd-helper/public-api-imports": ["error", { "alias": "@" }],
+        "fsd-helper/layer-imports": [
+            "error",
+            {
+            "alias": "@",
+            "ignoreImportPatterns": ["**/StoreProvider"]
+            }
+        ]
+        
     }
 }
 ```
